@@ -13,17 +13,18 @@ import org.junit.runners.MethodSorters;
 
 public class TestPrimeNo {
 	
+	@Test
+	public void testF() {
+		fail();
 	
-	//@FixMethodOrder(MethodSorters.NAME_ASCENDING)
-	//@FixMethodOrder(MethodSorters.NAME_ASCENDING)
-	//@Ignore
-	//@After
+	}
+
 	@Test
 	public void testPrimeNo() {
 		assertEquals(true, PrimeNo.checkPrime(8));
 	
 	}
-	//@Before
+
 	@Test
 	public void testEven() {
 		assertEquals(true, PrimeNo.checkEven(10));
